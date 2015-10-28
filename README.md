@@ -3,7 +3,7 @@ Sharing components between React and React Native
 
 
 Running the code
-****************
+----------------
 
 To run Android, first start an android emulator, then run the following commands :
 ```bash
@@ -24,7 +24,7 @@ Now navigate to http://localhost:8080/
 
 
 Important files
-***************
+---------------
 
 The base cross-platform component is defined in `shared/Name.js`
 
