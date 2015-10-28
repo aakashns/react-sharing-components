@@ -20,7 +20,7 @@ npm install
 webpack-dev-server --progress --colors
 ```
 
-Now navigate to http://localhost:8080/
+Now navigate to [http://localhost:8080/](http://localhost:8080/)
 
 
 Important files
