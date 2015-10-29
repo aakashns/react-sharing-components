@@ -1,18 +1,10 @@
 # react-sharing-components
 Sharing components between React and React Native
 
-
 Running the code
 ----------------
 
-To run Android, first start an android emulator (or connect your phone with USB debugging enabled), then run the following commands :
-```bash
-nmp install -g react-native-cli
-npm install
-react-native run-android
-```
-
-To run iOS, open up [`ios/SampleApp.xcodeproj`](ios/SampleApp.xcodeproj) in XCode, and click Run (the big play button).
+Make sure you have [Node JS](https://nodejs.org/en/) 4.0.0 or higher installed.
 
 To run the web example, first run the following commands :
 ```bash
@@ -23,6 +15,15 @@ webpack-dev-server --progress --colors
 ```
 
 Now navigate to [http://localhost:8080/](http://localhost:8080/)
+
+To run Android, first start an android emulator (or connect your phone with [USB debugging enabled](http://developer.android.com/tools/device.html)), then run the following commands :
+```bash
+npm install -g react-native-cli
+npm install
+react-native run-android
+```
+
+To run iOS, open up [`ios/SampleApp.xcodeproj`](ios/SampleApp.xcodeproj) in XCode, and click Run (the big play button).
 
 
 Important files
