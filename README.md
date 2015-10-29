@@ -5,12 +5,14 @@ Sharing components between React and React Native
 Running the code
 ----------------
 
-To run Android, first start an android emulator, then run the following commands :
+To run Android, first start an android emulator (or connect your phone with USB debugging enabled), then run the following commands :
 ```bash
 nmp install -g react-native-cli
 npm install
 react-native run-android
 ```
+
+To run iOS, open up [ios/SampleApp.xcodeproj](ios/SampleApp.xcodeproj) in XCode, and click Run (the big play button).
 
 To run the web example, first run the following commands :
 ```bash
