@@ -12,7 +12,7 @@ npm install
 react-native run-android
 ```
 
-To run iOS, open up [ios/SampleApp.xcodeproj](ios/SampleApp.xcodeproj) in XCode, and click Run (the big play button).
+To run iOS, open up [`ios/SampleApp.xcodeproj`](ios/SampleApp.xcodeproj) in XCode, and click Run (the big play button).
 
 To run the web example, first run the following commands :
 ```bash
