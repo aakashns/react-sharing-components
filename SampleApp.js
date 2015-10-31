@@ -3,6 +3,7 @@ import NameViewNative from './NameViewNative';
 import NameBase from './shared/Name';
 import MyToastAndroid from 'MyToastAndroid';
 import ImageView2 from './MyImageView';
+import FadeInView from './FadeInView';
 
 var {
   View,
@@ -21,7 +22,7 @@ var SampleApp = React.createClass({
   },
 
   render: function() {
-    return (
+    return (<FadeInView>
       <View style={styles.container}>
         <Name view={NameViewNative} />
         <TouchableNativeFeedback
@@ -32,7 +33,7 @@ var SampleApp = React.createClass({
             <ImageView2 style={{width: 40, height: 40}} src="http://www.keenthemes.com/preview/metronic/theme/assets/global/plugins/jcrop/demos/demo_files/image1.jpg" />
           </View>
         </TouchableNativeFeedback>
-      </View>
+      </View></FadeInView>
     );
   }
 });
