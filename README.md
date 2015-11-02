@@ -1,5 +1,6 @@
 # react-sharing-components
-Sharing components between React and React Native
+
+Sample code for my article : [Sharing components between React and React Native](https://medium.com/@aakashns/sharing-components-between-react-and-react-native-f6ce3713658a)
 
 Running the code
 ----------------
